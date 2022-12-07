@@ -1,0 +1,30 @@
+body {
+  font-family: 'Open Sans';
+  background-color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.App-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 32em;
+}
+
+@media only screen and (min-width: 600px) {
+  .App-head {
+    height: 100vh;
+  }
+}
+
+.App-logotype {
+  width: 32em;
+  max-width: 60vw;
+}

@@ -1,0 +1,32 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  width: 36em;
+  max-width: 80vw;
+  background-color: #222;
+  color: #ccc;
+  padding: 0 0.5em;
+  /*box-shadow: 0 0 0.4em 0.2em #222a;*/
+}
+
+.rainbowGradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px; 
+  border-radius: 3px;
+  box-shadow: inset 0 0 8px 8px white, inset 0 0 2px 1px white;
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+
+h1 {
+  font-size: 1.8em;
+  word-wrap: break-word;
+  font-weight: normal;
+  font-family: 'Permanent Marker';
+}
+
+p
+{
+  color: #aaa;
+}
