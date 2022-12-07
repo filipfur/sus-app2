@@ -8,10 +8,14 @@ export default function App() {
   return (
     <div className="App">
       <div className="App-head">
-        <img
-          className="App-logotype"
-          src="https://github.com/filipfur/sus-web/blob/master/assets/sus-logo.png?raw=true"
-        />
+        <div className="rainbowGradient">
+          <div className="App-logocontainer">
+            <img
+              className="App-logotype"
+              src="https://github.com/filipfur/sus-web/blob/master/assets/sus-logo.png?raw=true"
+            />
+          </div>
+        </div>
       </div>
       <Post title="Svenska Spelutvecklingssällskapet">
         <p>
